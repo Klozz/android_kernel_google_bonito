@@ -23,7 +23,7 @@ config PRIMA_WLAN_11AC_HIGH_TP
 
 config WLAN_FEATURE_11W
 	bool "Enable the WLAN 802.11w Protected Management Frames feature"
-	default n
+	default y
 
 config WLAN_FEATURE_LPSS
 	bool "Enable the WLAN LPSS feature"
