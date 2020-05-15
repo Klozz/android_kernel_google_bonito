@@ -51,6 +51,10 @@
 #include "../qcom/smb1355.dtsi"
 };
 
+&mdss_dsi_phy0 {
+	qcom,panel-allow-phy-poweroff;
+};
+
 &ufsphy_mem {
 	compatible = "qcom,ufs-phy-qmp-v3";
 
